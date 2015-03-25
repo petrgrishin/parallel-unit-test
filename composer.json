@@ -27,6 +27,6 @@
         }
     },
     "scripts": {
-      "test:parallel" : "/usr/bin/env php src/cli.php test:parallel"
+      "test:parallel" : "/usr/bin/env php src/cli.php test:parallel tests"
     }
 }
