@@ -1,0 +1,32 @@
+{
+    "name": "petrgrishin/parallel-unit-test",
+    "description": "Methodology of tests for parallel execution of code ",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/console": "~2.6"
+    },
+    "require-dev": {
+        "league/phpunit-coverage-listener": "~1.0"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/petrgrishin/parallel-unit-test.git"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Petr Grishin",
+            "email": "petr.grishin@grishini.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PetrGrishin\\ParallelUnitTest\\": "src/"
+        }
+    },
+    "scripts": {
+      "test:parallel" : "/usr/bin/env php src/cli.php test:parallel"
+    }
+}
