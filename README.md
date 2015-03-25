@@ -2,6 +2,7 @@
 Methodology of tests for parallel execution of code
 
 ## Installation
+Add a dependency and script to your project's composer.json:
 ```json
 {
     "require": {
